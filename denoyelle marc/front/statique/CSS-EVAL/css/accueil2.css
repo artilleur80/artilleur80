@@ -61,7 +61,12 @@ h1{text-align:center;}
         p 
         {
             font-size: xx-large;
-        }    
+        }   
+        
+        
+
+
+
     }
 
     
@@ -75,4 +80,9 @@ h1{text-align:center;}
         {
             font: optional;
         }
+        aside {
+            display: none;
+          } 
+        
+
     }     
