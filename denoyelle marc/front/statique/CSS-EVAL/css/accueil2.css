@@ -52,33 +52,17 @@ h1{text-align:center;}
       font-style: italic;
       background-color: rgb(143, 131, 131);
     }
-    @media screen and (max-width: 576px) 
-    { 
-        h1 
-        { 
-            font-size : 20px; 
-        } 
-        p 
-        {
-            font-size: xx-large;
-        }   
-        
-        
-
-
-
-    }
-
+    
     
     @media screen and (max-width: 768px) 
     { 
         h1 
         { 
-           font-size: large;
+           font-size: 20px;
         } 
         p 
         {
-            font: optional;
+            font: xx-large;
         }
         aside {
             display: none;
