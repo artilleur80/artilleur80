@@ -37,7 +37,7 @@
     <fieldset>
         <legend>Coordonnées</legend>
         <label for="nom">votre Nom*:</label><input type="text" name="nom" id="nom"><br>
-        <label for="nom">votre prénom*:</label><input type="text" name="votreprenom" id="?"><br>
+        <label for="prenom">votre prénom*:</label><input type="text" name="votreprenom" id="prenom"><br>
         
         <p>sexe*:
 
@@ -45,11 +45,11 @@
             <input type="radio" name="feminin" value="feminin" > feminin
         </p>
 
-            <label for="date">Date de naissance:</label><input type="date" name="ddn"><br>
+            <label for="date">Date de naissance:</label><input type="date" name="ddn" id="datedenaissance"><br>
        
-            <label for="nom">code postal:</label><input type="text" name="codepostale"><br>
-            <label for="nom">adresse:</label><input type="text" name="adresse"><br>
-            <label for="nom">Email*:</label><input type="text" name="email"><br>
+            <label for="cp">code postal:</label><input type="number" name="cp" id="cp"><br>
+            <label for="adresse">adresse:</label><input type="text" name="adresse" id="adresse"><br>
+            <label for="email">Email*:</label><input type="text" name="email" id="email"><br>
            
         
         
@@ -57,7 +57,7 @@
         
         
         
-        <label for="date">Date de naissance:</label><input type="date" name="ddn" id="date">
+        
     </fieldset>
     <fieldset>
         <legend>votre demande</legend>
@@ -106,7 +106,7 @@
 <form>
          <action="envoyer.html" method="get">
         <input type="submit" value="envoyer">
-        <input type="submit" value="annuler">
+        <input type="reset" value="annuler">
  </form>
 
 <hr>
