@@ -10,9 +10,11 @@
        
 </head>
 <body>
+    <header>
     <img src="image/jarditou_logo.jpg" class="cats" alt="">
     
     <h1>tout le jardin</h1>
+    </header>
     <nav>
         <a href="accueil.html" title="Page suivante">accueil</a> 
     
@@ -32,26 +34,24 @@
     
 
 
-    
+    <article>
     
     <fieldset>
         <form
         < action="http://bienvu.net/script.php" method="get"></action>
         <legend>Coordonnées</legend>
-        <label for="nom">votre Nom*:</label><input type="text" name="nom" id="nom"><br>
-        <label for="prenom">votre prénom*:</label><input type="text" name="votreprenom" id="prenom"><br>
+        <label for="nom">votre Nom*:</label><input type="text" name="nom" id="nom" required><br>
+        <label for="prenom">votre prénom*:</label><input type="text" name="votreprenom" id="prenom" required><br>
         
-        <p>sexe*:
-
-            <input type="radio" name="masculin" value="masculin"> masculin
-            <input type="radio" nom="feminin" value="feminin" > feminin
-        </p>
-
+            <p>sexe
+            <label for="sexe">masculin:</label><input type="radio" name="sexe" id="sexe"required>
+            <label for="sex">feminin:</label><input type="radio" name="sex" id="sex" required><br>
+            </p>
             <label for="date">Date de naissance:</label><input type="date" name="ddn" id="datedenaissance"><br>
        
             <label for="cp">code postal:</label><input type="number" name="cp" id="cp"><br>
             <label for="adresse">adresse:</label><input type="text" name="adresse" id="adresse"><br>
-            <label for="emailg">Email*:</label><input type="text" name="email" id="email"><br>
+            <label for="emailg">Email*:</label><input type="text" name="email" id="email"required ><br>
            
         
         
@@ -110,10 +110,10 @@
         <input type="submit" value="envoyer">
         <input type="reset" value="annuler">
 </form>
-
+    </article>
 <hr>
 
-
+<footer>
 
     <nav>
         <a href="mentionlegales.html" title="Page suivante">mention legales</a> 
@@ -125,7 +125,7 @@
         <a href="plandusite.html" title="Page suivante">plan du site</a> 
     </nav>
 
-
+</footer>
 
        
 
