@@ -67,6 +67,6 @@ h1{text-align:center;}
         aside {
             display: none;
           } 
-        
+          tr:nth-child(even){background-color: #f2f2f2} 
 
     }     

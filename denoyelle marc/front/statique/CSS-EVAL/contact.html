@@ -26,6 +26,7 @@
     </nav>
     <img src="image/promotion.jpg" alt="">
     <aside>colonne de droite</aside>
+   
     <h1>contact</h1>
     <hr>
 
@@ -37,56 +38,28 @@
  
     
     <fieldset>
-        <form
-        < action="http://bienvu.net/script.php" method="get"></action>
-        <legend>Coordonnées</legend>
+
+       <form 
+         action="http://bienvu.net/script.php" method="get">
+        <h2>Coordonnées</h2>
         <label for="nom">votre Nom*:</label><input type="text" name="nom" id="nom" required><br>
         <label for="prenom">votre prénom*:</label><input type="text" name="votreprenom" id="prenom" required><br>
         
             <p>sexe
-            <label for="sexe">masculin:</label><input type="radio" name="sexe" id="sexe"required>
-            <label for="sexe">feminin:</label><input type="radio" name="sexe" id="sexe" required>
+            <label for="sexe">masculin:</label><input type="radio" name="sexe" id="sexe" required>
+            <label for="sexes">feminin:</label><input type="radio" name="sexe" id="sexes" required>
             </p>
-            <label for="date">Date de naissance:</label><input type="date" name="ddn" id="datedenaissance"><br>
+            <label for="date">Date de naissance:</label><input type="date" name="ddn" id="date"><br>
        
             <label for="cp">code postal:</label><input type="number" name="cp" id="cp"><br>
             <label for="adresse">adresse:</label><input type="text" name="adresse" id="adresse"><br>
-            <label for="email">Email*:</label><input type="text" name="email" id="email"required ><br>
+            <label for="email">Email*:</label><input type="text" name="email" id="email" required ><br>
            
         
         
-        
-        
-        
-        
-        
-    </fieldset>
-    <fieldset>
-        <legend>votre demande</legend>
+         <h3>votre demande</h3>
        
-       
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p>sujet*:
+       <p>sujet*:
  <select id="sujet" required> 
     
     <option value="veuillezselectionnerunsujet">veuillez selectionner un sujet</option>
@@ -99,20 +72,15 @@
 <p>votre question:
     <textarea name="votre question" rows="2" cols="15"></textarea>
 
+    <input type="checkbox" name="*jaccepteletraitementinformatiquedeceformulaire" value="*jaccepteletraitementinformatiquedeceformulaire" required> * j'accepte le traitement informatique de ce formulaire 
+    <input type="submit" value="envoyer">
+    <input type="reset" value="annuler">
+</fieldset>        
 
-</fieldset>
-<input type="checkbox" name="*jaccepteletraitementinformatiquedeceformulaire" value="*jaccepteletraitementinformatiquedeceformulaire" required> * j'accepte le traitement informatique de ce formulaire 
-
-
-
-
-         
-        <input type="submit" value="envoyer">
-        <input type="reset" value="annuler">
-</form>
-    
+    </form>
 <hr>
 
+    
 <footer>
 
     <nav>
@@ -128,11 +96,5 @@
 </footer>
 
        
-
-
-
-
-
-
 </body>
 </html>
